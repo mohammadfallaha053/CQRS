@@ -1,0 +1,10 @@
+@host=http://localhost:5101
+POST  {{host}}/auth/Login
+Content-Type: application/json
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiNTczNTkzZC03ZjUyLTRiNjYtOGIwNC02NDI4Zjc3ODkyMDUiLCJnaXZlbl9uYW1lIjoiSm9obiIsImZhbWlseV9uYW1lIjoid293IiwianRpIjoiZmQxNWFlMmMtZmE3NS00MWIxLWFmYzQtYWNlMzI2NzU4MTUxIiwiZXhwIjoxNzIwMDI5OTE3LCJpc3MiOiJDUVJTIiwiYXVkIjoiQ1FSUyJ9.zOFm2jUxbmmRSm4rtos18K7gOL2Vbj0Q2mXmicCc7Kg
+
+{
+    "email": "john.doe@example.com",
+    "password": "1"
+}
+
